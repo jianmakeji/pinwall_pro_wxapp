@@ -4,21 +4,28 @@
    width: 750rpx;
    height: 100%;
 }
-.bg_img{
+
+.bg_img {
    position: absolute;
    top: 0rpx;
    left: 0rpx;
    width: 100%;
    height: 100%;
-   z-index: -100
+   z-index: -100;
 }
-.completeInof .radio_box{
+
+input{
+   color:#fff;
+}
+
+.completeInof .radio_box {
    width: 700rpx;
    margin-left: 25rpx;
    position: absolute;
    margin-top: 20rpx;
 }
-.completeInof .des_text{
+
+.completeInof .des_text {
    display: block;
    margin: 60rpx auto 20rpx;
    width: 700rpx;
@@ -26,21 +33,18 @@
    font-size: 28rpx;
    text-align: center;
    text-indent: 2em;
-   color: #ff9900;
+   color: #f90;
 }
 
-
-
-
-
-.completeInof .newuser_img{
+.completeInof .newuser_img {
    width: 80rpx;
    height: 80rpx;
    position: absolute;
    margin-left: 180rpx;
    margin-top: 120rpx;
 }
-.completeInof .newuser_title{
+
+.completeInof .newuser_title {
    width: 100rpx;
    height: 40rpx;
    line-height: 40rpx;
@@ -51,7 +55,8 @@
    margin-top: 230rpx;
    margin-left: 170rpx;
 }
-.completeInof .newuser_des{
+
+.completeInof .newuser_des {
    width: 300rpx;
    height: 30rpx;
    line-height: 30rpx;
@@ -62,14 +67,16 @@
    margin-top: 275rpx;
    margin-left: 70rpx;
 }
-.completeInof .olduser_img{
+
+.completeInof .olduser_img {
    width: 80rpx;
    height: 80rpx;
    position: absolute;
    margin-left: 500rpx;
    margin-top: 120rpx;
 }
-.completeInof .olduser_title{
+
+.completeInof .olduser_title {
    width: 140rpx;
    height: 40rpx;
    line-height: 40rpx;
@@ -80,7 +87,8 @@
    margin-top: 230rpx;
    margin-left: 464rpx;
 }
-.completeInof .olduser_des{
+
+.completeInof .olduser_des {
    width: 300rpx;
    height: 30rpx;
    line-height: 30rpx;
@@ -91,6 +99,7 @@
    margin-top: 275rpx;
    margin-left: 382rpx;
 }
+
 .completeInof .username_box {
    width: 600rpx;
    height: 80rpx;
@@ -115,6 +124,7 @@
    margin-left: 20rpx;
    background: none;
 }
+
 .completeInof .email_box {
    width: 600rpx;
    height: 80rpx;
@@ -139,6 +149,7 @@
    margin-left: 20rpx;
    background: none;
 }
+
 .completeInof .smsCode_box {
    width: 300rpx;
    height: 80rpx;
@@ -159,12 +170,14 @@
    margin-left: 20rpx;
    background: none;
 }
-.completeInof .acodeStg{
+
+.completeInof .acodeStg {
    width: 200rpx;
    position: absolute;
    margin-left: 60rpx;
-   margin-top:5rpx;
+   margin-top: 5rpx;
 }
+
 .completeInof .password_box {
    width: 600rpx;
    height: 80rpx;
@@ -195,20 +208,16 @@
    position: absolute;
    margin-top: 820rpx;
    margin-left: 75rpx;
-   color: #1FB5BE;
+   color: #1fb5be;
 }
+
 .completeInof .wxActive {
    width: 200rpx;
    position: absolute;
    margin-top: 920rpx;
    margin-left: 75rpx;
-   color: #1FB5BE;
+   color: #1fb5be;
 }
-
-
-
-
-
 
 .completeInof .bind_email_box {
    width: 600rpx;
@@ -234,6 +243,7 @@
    margin-left: 20rpx;
    background: none;
 }
+
 .completeInof .bind_smsCode_box {
    width: 300rpx;
    height: 80rpx;
@@ -254,27 +264,26 @@
    margin-left: 20rpx;
    background: none;
 }
-.completeInof .bind_acodeStg{
+
+.completeInof .bind_acodeStg {
    width: 200rpx;
    position: absolute;
    margin-left: 60rpx;
-   margin-top:5rpx;
+   margin-top: 5rpx;
 }
-
-
-
 
 .completeInof .bind_email {
    width: 600rpx;
    position: absolute;
    margin-top: 620rpx;
    margin-left: 75rpx;
-   color: #1FB5BE;
+   color: #1fb5be;
 }
-.completeInof .bind_wx{
+
+.completeInof .bind_wx {
    width: 600rpx;
    position: absolute;
    margin-top: 620rpx;
    margin-left: 75rpx;
-   color: #1FB5BE;
+   color: #1fb5be;
 }
