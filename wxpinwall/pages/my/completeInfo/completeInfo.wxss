@@ -1,0 +1,218 @@
+/* pages/my/completeInof/completeInof.wxss */
+
+.completeInof {
+   width: 750rpx;
+   height: 100%;
+}
+.bg_img{
+   position: absolute;
+   top: 0rpx;
+   left: 0rpx;
+   width: 100%;
+   height: 100%;
+   z-index: -100
+}
+.completeInof .radio_box{
+   width: 700rpx;
+   margin-left: 25rpx;
+   position: absolute;
+   margin-top: 20rpx;
+}
+.completeInof .des_text{
+   display: block;
+   margin: 60rpx auto 20rpx;
+   width: 700rpx;
+   height: 80rpx;
+   font-size: 28rpx;
+   text-align: center;
+   text-indent: 2em;
+   color: #ff9900;
+}
+
+
+
+
+
+.completeInof .newuser_img{
+   width: 80rpx;
+   height: 80rpx;
+   position: absolute;
+   margin-left: 180rpx;
+   margin-top: 120rpx;
+}
+.completeInof .newuser_title{
+   width: 100rpx;
+   height: 40rpx;
+   line-height: 40rpx;
+   color: #fff;
+   font-size: 24rpx;
+   text-align: center;
+   position: absolute;
+   margin-top: 230rpx;
+   margin-left: 170rpx;
+}
+.completeInof .newuser_des{
+   width: 300rpx;
+   height: 30rpx;
+   line-height: 30rpx;
+   color: #fff;
+   font-size: 20rpx;
+   text-align: center;
+   position: absolute;
+   margin-top: 275rpx;
+   margin-left: 70rpx;
+}
+.completeInof .olduser_img{
+   width: 80rpx;
+   height: 80rpx;
+   position: absolute;
+   margin-left: 500rpx;
+   margin-top: 120rpx;
+}
+.completeInof .olduser_title{
+   width: 140rpx;
+   height: 40rpx;
+   line-height: 40rpx;
+   color: #fff;
+   font-size: 24rpx;
+   text-align: center;
+   position: absolute;
+   margin-top: 230rpx;
+   margin-left: 464rpx;
+}
+.completeInof .olduser_des{
+   width: 300rpx;
+   height: 30rpx;
+   line-height: 30rpx;
+   color: #fff;
+   font-size: 20rpx;
+   text-align: center;
+   position: absolute;
+   margin-top: 275rpx;
+   margin-left: 382rpx;
+}
+.completeInof .username_box {
+   width: 600rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   position: absolute;
+   margin-top: 380rpx;
+   margin-left: 75rpx;
+   border: 2rpx solid #fff;
+   border-radius: 80rpx;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+
+.completeInof .username_icon {
+   margin-left: 40rpx;
+}
+
+.completeInof .username_input {
+   width: 400rpx;
+   height: 56rpx;
+   margin-left: 20rpx;
+   background: none;
+}
+.completeInof .email_box {
+   width: 600rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   position: absolute;
+   margin-top: 480rpx;
+   margin-left: 75rpx;
+   border: 2rpx solid #fff;
+   border-radius: 80rpx;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+
+.completeInof .email_icon {
+   margin-left: 40rpx;
+}
+
+.completeInof .email_input {
+   width: 400rpx;
+   height: 56rpx;
+   margin-left: 20rpx;
+   background: none;
+}
+.completeInof .password_box {
+   width: 600rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   position: absolute;
+   margin-top: 580rpx;
+   margin-left: 75rpx;
+   border: 2rpx solid #fff;
+   border-radius: 80rpx;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+
+.completeInof .password_icon {
+   margin-left: 40rpx;
+}
+
+.completeInof .password_input {
+   width: 400rpx;
+   height: 56rpx;
+   margin-left: 20rpx;
+   background: none;
+}
+
+.completeInof .register {
+   width: 600rpx;
+   position: absolute;
+   margin-top: 720rpx;
+   margin-left: 75rpx;
+   color: #1FB5BE;
+}
+.completeInof .wxActive {
+   width: 600rpx;
+   position: absolute;
+   margin-top: 820rpx;
+   margin-left: 75rpx;
+   color: #1FB5BE;
+}
+.completeInof .bind_email_box {
+   width: 600rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   position: absolute;
+   margin-top: 380rpx;
+   margin-left: 75rpx;
+   border: 2rpx solid #fff;
+   border-radius: 80rpx;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+
+.completeInof .bind_email_icon {
+   margin-left: 40rpx;
+}
+
+.completeInof .bind_email_input {
+   width: 400rpx;
+   height: 56rpx;
+   margin-left: 20rpx;
+   background: none;
+}
+.completeInof .bind_email {
+   width: 600rpx;
+   position: absolute;
+   margin-top: 520rpx;
+   margin-left: 75rpx;
+   color: #1FB5BE;
+}
+.completeInof .bind_wx{
+   width: 600rpx;
+   position: absolute;
+   margin-top: 620rpx;
+   margin-left: 75rpx;
+   color: #1FB5BE;
+}

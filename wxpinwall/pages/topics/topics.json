@@ -1,0 +1,11 @@
+{
+   "usingComponents": {
+      "topic-component": "/my-components/topic-component/topic-component",
+      "wxc-tab": "/@minui/wxc-tab/dist/index",
+      "wxc-tab-panel": "/@minui/wxc-tab/dist/panel",
+      "i-message": "/dist/message/index",
+      "i-load-more": "/dist/load-more/index"
+   },
+   "enablePullDownRefresh": true,
+   "disableSwipeBack": true
+}

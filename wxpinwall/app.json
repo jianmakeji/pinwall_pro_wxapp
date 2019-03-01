@@ -1,0 +1,51 @@
+{
+   "pages": [
+      "pages/my/completeInfo/completeInfo",
+      "pages/index/index",
+      "pages/topics/topics",
+      "pages/topics/myTopics/myTopics",
+      "pages/topics/topicDetail/topicDetail",
+      "pages/topics/showreelDetail/showreelDetail",
+      "pages/topics/artifactDetail/artifactDetail",
+      "pages/topics/mediaFileDetail/mediaFileDetail",
+      "pages/search/search",
+      "pages/my/my"
+   ],
+   "window": {
+      "backgroundTextStyle": "dark",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "图钉墙",
+      "backgroundColor": "#f8f8f9",
+      "navigationBarTextStyle": "black"
+   },
+   "tabBar": {
+      "selectedColor": "#1FB5BE",
+      "list": [
+         {
+            "pagePath": "pages/index/index",
+            "text": "设计廊",
+            "iconPath": "images/tab_index_default.png",
+            "selectedIconPath": "images/tab_index_hl.png"
+         },
+         {
+            "pagePath": "pages/topics/topics",
+            "text": "作业荚",
+            "iconPath": "images/tab_topic_default.png",
+            "selectedIconPath": "images/tab_topic_hl.png"
+         },
+         {
+            "pagePath": "pages/search/search",
+            "text": "探索",
+            "iconPath": "images/tab_search_default.png",
+            "selectedIconPath": "images/tab_search_hl.png"
+         },
+         {
+            "pagePath": "pages/my/my",
+            "text": "绑定",
+            "iconPath": "images/tab_my_default.png",
+            "selectedIconPath": "images/tab_my_hl.png"
+         }
+      ]
+   },
+   "resizable": true
+}
