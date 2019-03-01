@@ -31,6 +31,10 @@ App({
       //searchs 
       searchByKeywords: '/website/search/searchByKeywords',
       suggestKeyWords: '/website/search/suggestKeyWords',
+
+      //手机短信接口
+      createSmsMessage: "/sms/createSmsMessage?mobile=",
+      vertifySms: "/sms/vertifySms"
    },
    onLaunch: function() {
       if(wx.getStorageSync("isLogin") == "true"){

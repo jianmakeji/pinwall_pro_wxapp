@@ -1,6 +1,5 @@
 {
    "pages": [
-      "pages/my/completeInfo/completeInfo",
       "pages/index/index",
       "pages/topics/topics",
       "pages/topics/myTopics/myTopics",
@@ -9,6 +8,7 @@
       "pages/topics/artifactDetail/artifactDetail",
       "pages/topics/mediaFileDetail/mediaFileDetail",
       "pages/search/search",
+      "pages/my/completeInfo/completeInfo",
       "pages/my/my"
    ],
    "window": {

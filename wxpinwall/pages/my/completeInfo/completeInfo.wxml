@@ -13,25 +13,28 @@
    </view>
    <view class='email_box' wx:if="{{current == 'new'}}">
       <i-icon class='email_icon' type="businesscard" size="20" color="#fff" />
-      <i-input i-class='email_input' value="{{ email }}" bind:change="emailChange" placeholder="请输入邮箱" />
+      <i-input i-class='email_input' type='number' value="{{ mobile }}" bind:change="mobileChange" placeholder="请输入手机号码" />
    </view>
-   <!-- <view class='email_box' wx:if="{{current == 'new'}}">
-      <i-icon class='email_icon' type="businesscard" size="20" color="#fff" />
-      <i-input i-class='email_input' value="{{ email }}" bind:change="emailChange" placeholder="请输入验证码" />
-   </view> -->
+   <view class='smsCode_box' wx:if="{{current == 'new'}}">
+      <i-input i-class='smsCode_input' type='number' value="{{ smsCode }}" bind:change="smsCodeChange" placeholder="请输入验证码" />
+      <i-button i-class='acodeStg' wx:if="{{current == 'new'}}" size="small" bind:click="sendAcodeStg" type="default" shape="circle" disabled="{{codeDisable}}">{{mobileCodeText}}</i-button>
+   </view>
    <view class='password_box' wx:if="{{current == 'new'}}">
       <i-icon class='password_icon' type="lock" size="20" color="#fff" />
       <i-input i-class='password_input' type='password' value="{{ password }}" bind:change="passwordChange" placeholder="请输入您的密码" />
    </view>
    <i-button i-class="register" wx:if="{{current == 'new'}}" bind:click="register" type="submit" shape="circle" disabled="{{registerDisable}}">注册</i-button>
-   <i-button i-class="wxActive" wx:if="{{current == 'new'}}" bind:click="wxActiveTap" type="submit" shape="circle" disabled="{{wxActiveDisable}}">确认邮箱已激活后点击此按钮</i-button>
+   <!-- <i-button i-class="wxActive" wx:if="{{current == 'new'}}" bind:click="wxActiveTap" type="submit" shape="circle" disabled="{{wxActiveDisable}}">确认邮箱已激活后点击此按钮</i-button> -->
 
    <view class='bind_email_box' wx:if="{{current == 'old'}}">
       <i-icon class='bind_email_icon' type="businesscard" size="20" color="#fff" />
-      <i-input i-class='bind_email_input' value="{{ bindemail }}" bind:change="bindemailChange" placeholder="请输入邮箱" />
+      <i-input i-class='bind_email_input' type='number' value="{{ bindMobile }}" bind:change="bindMobileChange" placeholder="请输入手机号" />
    </view>
-   <i-button i-class="bind_email" wx:if="{{current == 'old'}}" bind:click="bindEmail" type="submit" shape="circle" disabled="{{bindemailDisable}}">绑定</i-button>
-   <i-button i-class="bind_wx" wx:if="{{current == 'old'}}" bind:click="bindWx" type="submit" shape="circle" disabled="{{bindWxDisable}}">确认邮箱已激活后点击此按钮</i-button>
+   <view class='bind_smsCode_box' wx:if="{{current == 'old'}}">
+      <i-input i-class='bind_smsCode_input' type='number' value="{{ smsCode }}" bind:change="smsCodeChange" placeholder="请输入验证码" />
+      <i-button i-class='bind_acodeStg' wx:if="{{current == 'old'}}" size="small" bind:click="sendAcodeStg" type="default" shape="circle" disabled="{{bindCodeDisable}}">{{bindMobileCodeText}}</i-button>
+   </view>
+   <i-button i-class="bind_email" wx:if="{{current == 'old'}}" bind:click="bindMobile" type="submit" shape="circle" disabled="{{bindMobileDisable}}">绑定</i-button>
    <i-toast id="toast" />
 </view>
 <image class='bg_img' src="/images/login_bg.png"></image>

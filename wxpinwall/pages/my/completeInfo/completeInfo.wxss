@@ -139,12 +139,38 @@
    margin-left: 20rpx;
    background: none;
 }
+.completeInof .smsCode_box {
+   width: 300rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   position: absolute;
+   margin-top: 580rpx;
+   margin-left: 75rpx;
+   border: 2rpx solid #fff;
+   border-radius: 80rpx;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+
+.completeInof .smsCode_input {
+   width: 200rpx;
+   height: 56rpx;
+   margin-left: 20rpx;
+   background: none;
+}
+.completeInof .acodeStg{
+   width: 200rpx;
+   position: absolute;
+   margin-left: 60rpx;
+   margin-top:5rpx;
+}
 .completeInof .password_box {
    width: 600rpx;
    height: 80rpx;
    line-height: 80rpx;
    position: absolute;
-   margin-top: 580rpx;
+   margin-top: 680rpx;
    margin-left: 75rpx;
    border: 2rpx solid #fff;
    border-radius: 80rpx;
@@ -167,17 +193,23 @@
 .completeInof .register {
    width: 600rpx;
    position: absolute;
-   margin-top: 720rpx;
-   margin-left: 75rpx;
-   color: #1FB5BE;
-}
-.completeInof .wxActive {
-   width: 600rpx;
-   position: absolute;
    margin-top: 820rpx;
    margin-left: 75rpx;
    color: #1FB5BE;
 }
+.completeInof .wxActive {
+   width: 200rpx;
+   position: absolute;
+   margin-top: 920rpx;
+   margin-left: 75rpx;
+   color: #1FB5BE;
+}
+
+
+
+
+
+
 .completeInof .bind_email_box {
    width: 600rpx;
    height: 80rpx;
@@ -202,10 +234,40 @@
    margin-left: 20rpx;
    background: none;
 }
+.completeInof .bind_smsCode_box {
+   width: 300rpx;
+   height: 80rpx;
+   line-height: 80rpx;
+   position: absolute;
+   margin-top: 480rpx;
+   margin-left: 75rpx;
+   border: 2rpx solid #fff;
+   border-radius: 80rpx;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+
+.completeInof .bind_smsCode_input {
+   width: 200rpx;
+   height: 56rpx;
+   margin-left: 20rpx;
+   background: none;
+}
+.completeInof .bind_acodeStg{
+   width: 200rpx;
+   position: absolute;
+   margin-left: 60rpx;
+   margin-top:5rpx;
+}
+
+
+
+
 .completeInof .bind_email {
    width: 600rpx;
    position: absolute;
-   margin-top: 520rpx;
+   margin-top: 620rpx;
    margin-left: 75rpx;
    color: #1FB5BE;
 }
