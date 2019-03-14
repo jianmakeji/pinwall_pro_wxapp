@@ -6,16 +6,16 @@
       <text class='fullname'>{{userData.fullname}}</text>
       <image class='upload_img' src='/images/my_upload.png'></image>
       <text class='upload_text'>我的上传</text>
-      <text class='upload_num'>{{userData.artifactCount}}</text>
+      <text class='upload_num'>{{userData.artifactCount?userData.artifactCount:0}}</text>
       <image class='like_img' src='/images/my_like.png'></image>
       <text class='like_text'>被点赞的</text>
-      <text class='like_num'>{{userData.likeCount}}</text>
+      <text class='like_num'>{{userData.likeCount?userData.likeCount:0}}</text>
       <image class='medal_img' src='/images/my_medal.png'></image>
       <text class='medal_text'>我的勋章</text>
-      <text class='medal_num'>{{userData.medalCount}}</text>
+      <text class='medal_num'>{{userData.medalCount?userData.medalCount:0}}</text>
       <image class='comment_img' src='/images/my_comment.png'></image>
       <text class='comment_text'>被评论的</text>
-      <text class='comment_num'>{{userData.commentCount}}</text>
+      <text class='comment_num'>{{userData.commentCount?userData.commentCount:0}}</text>
    </view>
    <view class='zuopingji' data-user-id="{{userData.Id}}" catchtap='zuopinjiTap'>
       <image class='zuopingji_img' src='/images/my_showreel.png'></image>
